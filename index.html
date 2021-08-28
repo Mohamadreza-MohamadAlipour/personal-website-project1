@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <title>Document</title>
+
+</head>
+
+<body class='bg-light'>
+
+    <div class="navbar navbar-light bg-light shadow-sm py-3 fixed-top">
+        <div class="container">
+            <div class="dropdown">
+                <button class='btn btn-danger' id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class='fa fa-bars'></i></button>
+                <ul class="dropdown-menu p-2" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#home">خانه</a></li>
+                    <li><a class="dropdown-item" href="#about-us">درباره من</a></li>
+                    <li><a class="dropdown-item" href="#services">خدمات</a></li>
+                    <li><a class="dropdown-item" href="#portfolio">نمونه کارها</a></li>
+                    <li><a class="dropdown-item" href="#Customers-comments">نظرات مشتریان</a></li>
+                    <li><a class="dropdown-item" href="#contact-us">تماس با من</a></li>
+                </ul>
+            </div>
+            <span class="logo text-danger">
+                <h1 class='fs-4 fw-bold'>MSI</h1>
+            </span>
+        </div>
+    </div>
+
+    <div id="home" class='vh-100 d-flex align-items-center'>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="home-img text-center">
+                        <img src="./img/profile.png" alt="" class='profile-img img-fluid'>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="home-text">
+                        <p class='text-muted'>سلام من</p>
+                        <h1 class='text-danger fw-bold mt-2 mb-4'>طراح و برنامه نویس وب هستم</h1>
+                        <h2 class='fs-4'>محمدرضا محمدعلی پور</h2>
+                        <p class='text-muted py-3 desc'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                            استفاده از
+                            طراحان گرافیک است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                        </p>
+                        <a href="#portfolio" class='btn btn-danger py-2 px-3'>کارهای من</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-us">
+        <div class="container">
+            <div class="section-title text-center py-5">
+                <h1 class='fw-bold fs-2'>درباره من</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-us-right mb-5 mb-lg-0">
+                        <h3 class='fs-4 fw-bold mb-3'>این متن درباره من است و امیدوارم خوب باشد</h3>
+                        <p class='text-muted'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                            استفاده از
+                            طراحان گرافیک است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+
+                        <div class="row info text-center mt-4 mb-2">
+                            <div class="col-sm-4">
+                                <div class="info-item">
+                                    <h5 class='fw-bold'>30</h5>
+                                    <p class='text-muted'>پروژه های تکمیل شده</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="info-item">
+                                    <h5 class='fw-bold'>28</h5>
+                                    <p class='text-muted'>مشتریان رازی</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="info-item">
+                                    <h5 class='fw-bold'>98</h5>
+                                    <p clas='text-muted'>عملکرد مثبت</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='d-flex align-items-center'>
+                            <a class='btn btn-danger'>دانلود رزومه</a>
+                            <ul class="social-links d-flex align-items-center mt-4 me-3">
+                                <li class='ms-3'><a href="#" class='text-dark'><i class='fab fa-instagram'></i></a></li>
+                                <li class='ms-3'><a href="#" class='text-dark'><i class='fab fa-facebook'></i></a></li>
+                                <li class='ms-3'><a href="#" class='text-dark'><i class='fab fa-twitter'></i></a></li>
+                                <li><a href="#" class='text-dark'><i class='fab fa-youtube'></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skill-progress">
+                        <div class="progress-item mb-4">
+                            <h5 class='skill-name fs-6'>Html</h5>
+                            <div class="progress" style='height: 5px;'>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item mb-4">
+                            <h5 class='skill-name fs-6'>Css</h5>
+                            <div class="progress" style='height: 5px;'>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item mb-4">
+                            <h5 class='skill-name fs-6'>Javascript</h5>
+                            <div class="progress" style='height: 5px;'>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item mb-4">
+                            <h5 class='skill-name fs-6'>React js</h5>
+                            <div class="progress" style='height: 5px;'>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <h5 class='skill-name fs-6'>PWA</h5>
+                            <div class="progress" style='height: 5px;'>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 20%"
+                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='services' class="py-5">
+        <div class="container py-5">
+            <div class="section-title text-center py-5">
+                <h1 class='fw-bold fs-2'>من چیکار میکنم</h1>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-item bg-white shadow p-5 mb-4 mb-xl-0">
+                        <div class="icon fs-3 text-danger">
+                            <i class='fa fa-code'></i>
+                        </div>
+                        <h2 class='fs-3 mt-3 mb-2'>توسعه وب</h2>
+                        <p>من یک توسعه دهنده وب هستم و تجربه خوبی در این کار دارم</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-item bg-white shadow p-5 mb-4 mb-xl-0">
+                        <div class="icon fs-3 text-danger">
+                            <i class='fa fa-lightbulb'></i>
+                        </div>
+                        <h2 class='fs-3 mt-3 mb-2'>طراحی خلاقانه</h2>
+                        <p>من یک توسعه دهنده وب هستم و تجربه خوبی در این کار دارم</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="service-item bg-white shadow p-5 mb-4 mb-xl-0">
+                        <div class="icon fs-3 text-danger">
+                            <i class='fa fa-image'></i>
+                        </div>
+                        <h2 class='fs-3 mt-3 mb-2'>فتوشاپ</h2>
+                        <p>من یک توسعه دهنده وب هستم و تجربه خوبی در این کار دارم</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class='py-5'>
+        <div class="container py-5">
+            <div class="section-title text-center py-5">
+                <h1 class='fw-bold fs-2'>آخرین نمونه کارها</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item mb-4">
+                        <img src="./img/portfolio/1.jpg" alt="" class='w-100'>
+                        <h4 class='fs-5 fw-bold mt-3 mb-2'>نمونه اول</h4>
+                        <a href="#" class='text-decoration-none text-danger'>مشاهده آنلاین</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item mb-4">
+                        <img src="./img/portfolio/2.jpg" alt="" class='w-100'>
+                        <h4 class='fs-5 fw-bold mt-3 mb-2'>نمونه دوم</h4>
+                        <a href="#" class='text-decoration-none text-danger'>مشاهده آنلاین</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item mb-4">
+                        <img src="./img/portfolio/3.jpg" alt="" class='w-100'>
+                        <h4 class='fs-5 fw-bold mt-3 mb-2'>نمونه سوم</h4>
+                        <a href="#" class='text-decoration-none text-danger'>مشاهده آنلاین</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item mb-4">
+                        <img src="./img/portfolio/4.jpg" alt="" class='w-100'>
+                        <h4 class='fs-5 fw-bold mt-3 mb-2'>نمونه چهارم</h4>
+                        <a href="#" class='text-decoration-none text-danger'>مشاهده آنلاین</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item mb-4">
+                        <img src="./img/portfolio/5.jpg" alt="" class='w-100'>
+                        <h4 class='fs-5 fw-bold mt-3 mb-2'>نمونه پنجم</h4>
+                        <a href="#" class='text-decoration-none text-danger'>مشاهده آنلاین</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item mb-4">
+                        <img src="./img/portfolio/6.jpg" alt="" class='w-100'>
+                        <h4 class='fs-5 fw-bold mt-3 mb-2'>نمونه ششم</h4>
+                        <a href="#" class='text-decoration-none text-danger'>مشاهده آنلاین</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="freelancer-available py-5 text-center bg-danger text-white">
+        <p class='fs-5'>آیا شما پروژه ای دارید؟</p>
+        <h3 class='fs-1 mt-3 mb-4'>من در دسترس هستم</h3>
+        <a href="#" class='btn btn-outline-light'>کارتو به من بسپار</a>
+    </div>
+
+    <div id="Customers-comments" class='py-5'>
+        <div class="container py-5">
+            <div class="section-title text-center py-5">
+                <h1 class='fw-bold fs-2'>نظرات مشتریان</h1>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="bg-danger active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                class='bg-danger' aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                class='bg-danger' aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner pb-5">
+                            <div class="carousel-item active slider-item bg-white shadow-sm p-3">
+                                <div class='d-flex align-items-center mb-3'>
+                                    <img src="./img/testimonial/1.jpg" alt="" class='img-thumbnail rounded-circle'>
+                                    <div class="desc mt-3 me-3">
+                                        <h5 class='fs-6'>احمد محمدی</h5>
+                                        <p class='fs-6 text-muted'>برنامه نویس فرانت اند</p>
+                                    </div>
+                                </div>
+                                <p class='comment'>من در حوزه سئو هم فعالیت دارم و وب سایت شما رو سئو میکنم من در حوزه
+                                    سئو هم فعالیت
+                                    دارم و
+                                    وب
+                                    سایت شما رو سئو میکنم</p>
+                                <div class="stars text-danger">
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item slider-item bg-white shadow-sm p-3">
+                                <div class='d-flex align-items-center mb-3'>
+                                    <img src="./img/testimonial/2.jpg" alt="" class='img-thumbnail rounded-circle'>
+                                    <div class="desc mt-3 me-3">
+                                        <h5 class='fs-6'>ناهید آرشی</h5>
+                                        <p class='fs-6 text-muted'>سئو کار</p>
+                                    </div>
+                                </div>
+                                <p class='comment'>من در حوزه سئو هم فعالیت دارم و وب سایت شما رو سئو میکنم من در حوزه
+                                    سئو هم فعالیت
+                                    دارم و
+                                    وب
+                                    سایت شما رو سئو میکنم</p>
+                                <div class="stars text-danger">
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                            <div class="carousel-item slider-item bg-white shadow-sm p-3">
+                                <div class='d-flex align-items-center mb-3'>
+                                    <img src="./img/testimonial/3.jpg" alt="" class='img-thumbnail rounded-circle'>
+                                    <div class="desc mt-3 me-3">
+                                        <h5 class='fs-6'>سورنا امینی</h5>
+                                        <p class='fs-6 text-muted'>برنامه نویس بک اند</p>
+                                    </div>
+                                </div>
+                                <p class='comment'>من در حوزه سئو هم فعالیت دارم و وب سایت شما رو سئو میکنم من در حوزه
+                                    سئو هم فعالیت
+                                    دارم و
+                                    وب
+                                    سایت شما رو سئو میکنم</p>
+                                <div class="stars text-danger">
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                    <i class='fa fa-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='contact-us' class="py-5">
+        <div class="container py-5">
+            <div class="section-title text-center py-5">
+                <h1 class='fw-bold fs-2'>تماس با من</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-us-right pb-5 pb-lg-0">
+                        <div class='d-flex align-items-center mb-2'>
+                            <i class='fa fa-envelope fs-4 text-danger mb-4'></i>
+                            <div class='me-3'>
+                                <h5>ایمیل</h5>
+                                <p class='text-muted'>example@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class='d-flex align-items-center mb-2'>
+                            <i class='fa fa-phone fs-4 text-danger mb-4'></i>
+                            <div class='me-3'>
+                                <h5>تلفن</h5>
+                                <p class='text-muted'>1-4354356456+</p>
+                            </div>
+                        </div>
+                        <div class='d-flex align-items-center'>
+                            <i class='fa fa-map-marked fs-4 text-danger mb-4'></i>
+                            <div class='me-3'>
+                                <h5>آدرس</h5>
+                                <p class='text-muted'>وگاس سمت راست طبقه ششم واحد چهارم</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-us-left">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class='form-control border-0 shadow-sm p-3 fs-6 mb-3 mb-md-0'
+                                        placeholder="نام و نام خانوادگی">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class='form-control border-0 shadow-sm p-3 fs-6'
+                                        placeholder="ایمیل">
+                                </div>
+                            </div>
+                            <input type="text" class='form-control border-0 shadow-sm p-3 fs-6 my-3'
+                                placeholder="موضوع">
+                            <textarea cols="10" rows="10" placeholder="پیام شما"
+                                class='form-control border-0 shadow-sm p-3 fs-6'></textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class='text-muted py-5 border-top text-center'>&copy; طراحی و توسعه توسط محمدرضا محمدعلی پور</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src='./js/all.min.js'></script>
+    <script src='./js/bootstrap.bundle.js'></script>
+</body>
+
+</html>

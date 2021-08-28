@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.ttf") format("truetype"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+body {
+  font-family: "vazir" !important;
+  direction: rtl;
+}
+
+.logo,
+.skill-name {
+  font-family: cursive;
+}
+
+.dropdown-menu {
+  right: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  text-align: right;
+}
+
+.btn-outline-light:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+form textarea {
+  resize: none;
+}
+
+@media (max-width: 992px) {
+  #home {
+    padding: 28rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #home .home-text h1 {
+    font-size: 1.5rem;
+  }
+
+  #home .home-text h2 {
+    font-size: 1.3rem;
+  }
+
+  #home .home-text .desc {
+    font-size: 0.8rem;
+  }
+
+  #about-us .about-us-right h3 {
+    font-size: 1rem !important;
+  }
+
+  #about-us .about-us-right p {
+    font-size: 0.8rem;
+  }
+
+  #services .service-item p {
+    font-size: 0.8rem;
+  }
+
+  #portfolio .portfolio-item h4 {
+    font-size: 1.1rem !important;
+  }
+
+  #portfolio .portfolio-item a {
+    font-size: 0.8rem;
+  }
+
+  #Customers-comments .carousel-item .comment {
+    font-size: 0.8rem;
+  }
+
+  #contact-us .contact-us-right h5 {
+    font-size: 1.1rem;
+  }
+
+  #contact-us .contact-us-right p {
+    font-size: 0.9rem;
+  }
+
+  ::placeholder {
+    font-size: 0.9rem;
+  }
+}
